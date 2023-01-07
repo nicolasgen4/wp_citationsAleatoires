@@ -8,6 +8,7 @@ Une extension Wordpress permettant d'enregistrer et d'afficher des citations al�
   <li>Génère un shortcode</li>
   <li>Affiche les citations enregistrées aléatoirement</li>
   <li>Utilise les constantes Wordpress et des requêtes préparées $wpdb->prepare pour la sécurité</li>
+  <li>Contient un fichier CSS pour la mise en page du menu back office</li>
 </ul>
 
 # Shortcode
