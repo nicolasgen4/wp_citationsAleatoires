@@ -1,0 +1,55 @@
+.form-citation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.champ {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 50%;
+}
+
+.citation {
+    max-width: 50%;
+}
+
+.champ textarea {
+    height: 14rem;
+}
+
+.liste-citations {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.citation figure {
+    border: 1px #2271b1 solid;
+    border-radius: 0.8rem;
+    margin: 0;
+    padding: 0.4rem;
+}
+
+.modif-citation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.actions-citation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.actions-citation a {
+    text-decoration: none;
+}
+
+.actions-citation a:hover {
+    text-decoration: underline;
+}
